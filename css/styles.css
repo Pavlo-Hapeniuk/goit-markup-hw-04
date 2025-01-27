@@ -457,6 +457,15 @@ a {
   padding: 100px 0;
 }
 
+.container-footer {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-logo-text {
+  margin-right: 120px;
+}
+
 .footer-logo {
   margin-bottom: 16px;
 }
@@ -470,6 +479,7 @@ a {
 }
 
 .footer-text {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -477,17 +487,13 @@ a {
   max-width: 264px;
 }
 
-.container-footer {
-  display: flex;
-}
-
 .footer-soc {
   width: 208px;
   height: 80px;
-  margin-left: 120px;
 }
 
 .footer-text-soc {
+  font-weight: 500;
   color: #fff;
   margin-bottom: 16px;
 }
