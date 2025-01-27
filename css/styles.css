@@ -487,11 +487,6 @@ a {
   max-width: 264px;
 }
 
-.footer-soc {
-  width: 208px;
-  height: 80px;
-}
-
 .footer-text-soc {
   font-weight: 500;
   color: #fff;
@@ -509,11 +504,7 @@ a {
   height: 40px;
 }
 
-.footer-item-soc-icon {
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer-item-soc-icon:hover,
-.footer-item-soc-icon:focus {
+.footer-item-soc-icon .footer-soc:hover,
+.footer-item-soc-icon .footer-soc:focus {
   background-color: #31d0aa;
 }
