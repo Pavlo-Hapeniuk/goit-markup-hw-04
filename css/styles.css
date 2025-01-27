@@ -248,6 +248,7 @@ a {
   display: flex;
   padding: 24px 100px;
   align-items: center;
+  justify-content: center;
   margin-bottom: 8px;
 
   background: #f4f4fd;
